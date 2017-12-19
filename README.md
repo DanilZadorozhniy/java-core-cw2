@@ -12,19 +12,23 @@
 * Можно бронировать: по телефону, email, через форму с оф. сайта.
 
 ## Files
-1. Расписание фильмов на неделю: film-schedule.txt
+* Расписание фильмов на неделю: [**film-schedule.txt**](https://gitlab.com/oleg.novitskiy/java-core-exam/blob/master/resources/film-schedule.txt)
+
 ```
 id | id_film | Зал (small|big) | Стоимость (uah) | Дата | Время (начало) | Формат (3D)
 ```
-2. Подробное описание фильмов film-details.txt
+* Подробное описание фильмов [**film-details.txt**](https://gitlab.com/oleg.novitskiy/java-core-exam/blob/master/resources/film-details.txt)
+
 ```
 id_film | Название | Страна | Год выхода | Жанр [боевик,комедия,фэнтези] | Актеры [Билл Дьюк, Арнольд Шварценеггер, ...] | Бюджет ($) | Продолжительность (мин) | Рейтинг (10 звезд) | Description (255+ characters) |
 ```
-3. Забронированные места: bookings.txt
+* Забронированные места: [**bookings.txt**](https://gitlab.com/oleg.novitskiy/java-core-exam/blob/master/resources/film-schedule.txt)
+
 ```
 id | Дата | Время | id_film | № места | Дата/время брони | First name | Second Name | email | mobile
 ```
-4. Реестр "кидал" (забронировали, но не явились вовремя): users-black-list.txt
+* Реестр "кидал" (забронировали, но не явились вовремя): [**users-black-list.txt**](https://gitlab.com/oleg.novitskiy/java-core-exam/blob/master/resources/users-black-list.txt)
+
 ```
 Date/Time | First name | Second Name | email | mobile |
 ```
