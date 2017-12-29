@@ -22,7 +22,7 @@ id | id_film | Зал (small|big) | Стоимость (uah) | Дата | Вре
 ```
 id_film | Название | Страна | Год выхода | Жанр [боевик,комедия,фэнтези] | Актеры [Билл Дьюк, Арнольд Шварценеггер, ...] | Бюджет ($) | Продолжительность (мин) | Рейтинг (10 звезд) | Description (255+ characters) |
 ```
-* Забронированные места: [**bookings.txt**](https://gitlab.com/oleg.novitskiy/java-core-exam/blob/master/resources/film-schedule.txt)
+* Забронированные места: [**bookings.txt**](https://gitlab.com/oleg.novitskiy/java-core-exam/blob/master/resources/bookings.txt)
 
 ```
 id | Дата | Время | id_film | № места | Дата/время брони | First name | Second Name | email | mobile
